@@ -1,13 +1,14 @@
 .Brandname_header {
-  color: #e92569;
+  color: $colour-primary;
+  font-style: italic;
 }
 
-body {
-  color: $cyan-300;
+html {
+  color: $gray-500;
 }
 
 .Article_header {
-  color: #e92569;
+  color: $colour-primary;
 }
 
 .Frontpage_article {
@@ -17,4 +18,57 @@ body {
 
 #uncontrolled-tab-example-tabpane-home {
   display: inline-flex;
+}
+
+#root {
+  background-color: #c7c7c7;
+}
+.tab-content {
+  background: white;
+  padding: 3em;
+  min-height: 150px;
+  border-radius: $border-radius;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-top: -18px;
+}
+
+#uncontrolled-tab-example-tab-contact,
+#uncontrolled-tab-example-tab-profile {
+  color: $colour-primary;
+}
+
+#root > div.container-fluid > div > div.carousel-indicators > button.active {
+  background-color: #e92569;
+  height: 20px;
+}
+
+#root > div.container-fluid > div > div.carousel-indicators > button {
+  background-color: #ffffff;
+  height: 20px;
+}
+
+.Searchfield-btn {
+  margin-left: -5px;
+  border-radius: 0px;
+}
+
+#root > nav > div > div > form > button {
+  background-color: $colour-primary;
+  color: $colour-input;
+}
+
+.nav_links {
+  color: $nav-colors;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#root > nav {
+  background-color: #efefef;
+}
+
+.main-footer {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: $colour-input;
 }

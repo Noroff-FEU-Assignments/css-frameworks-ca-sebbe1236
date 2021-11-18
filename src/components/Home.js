@@ -1,12 +1,9 @@
-import Navigation from "./navbar.js";
 import Homecontent from "./Homepagecontent.js";
+import Footer from "./footer.js";
+import Navigation from "./navbar.js";
+
 function Home() {
-  return (
-    <>
-      <Navigation />
-      <Homecontent />
-    </>
-  );
+  return <></>;
 }
 
 export default Home;

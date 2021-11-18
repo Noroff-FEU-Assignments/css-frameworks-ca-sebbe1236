@@ -1,3 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+}
+
+$colour-primary: #e92569;
+$colour-input: #ffffff;
+$font-family-base: "Lato", sans-serif;
+$nav-colors: #0a0a0a;
+
+$theme-colors: (
+  "primary": $colour-primary,
+  "dark": $colour-primary,
+);
+
+$border-radius: 5px;
+
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/home";
 @import "./partials/news";
