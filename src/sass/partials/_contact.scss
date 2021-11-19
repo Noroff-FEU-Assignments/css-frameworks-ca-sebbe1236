@@ -9,3 +9,16 @@
   color: white;
   border-color: none;
 }
+
+.Contact_header {
+  color: $colour-primary;
+}
+
+#formBasicCheckbox {
+  background-color: $colour-primary;
+  padding: 15px;
+}
+
+#root > div > div > div > div.Container_contactform.col > form > div.mb-4.mt-3 > div > label {
+  padding: 5px;
+}

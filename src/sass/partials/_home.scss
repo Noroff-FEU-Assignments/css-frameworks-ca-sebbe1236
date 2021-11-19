@@ -1,6 +1,7 @@
 .Brandname_header {
   color: $colour-primary;
   font-style: italic;
+  font-weight: bold;
 }
 
 html {
@@ -63,12 +64,50 @@ html {
   text-decoration: none;
 }
 
+a:active {
+  background-color: $colour-input;
+}
 #root > nav {
   background-color: #efefef;
 }
 
 .main-footer {
-  margin-top: 15px;
+  margin-top: 70px;
   padding: 10px;
+
   background-color: $colour-input;
+}
+
+.Tab_container {
+  margin-bottom: 150px;
+}
+
+#uncontrolled-tab-example-tabpane-home > div.Containertabs_content.col > div > p > svg.bi.bi-facebook,
+#uncontrolled-tab-example-tabpane-home > div.Containertabs_content.col > div > p > svg.bi.bi-twitter {
+  margin-left: 15px;
+}
+
+.Container_icons {
+  display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+  .tab-content div,
+  .Tabs_Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Containertabs_content {
+    padding: 15px;
+    margin: 0px;
+  }
+  #uncontrolled-tab-example-tabpane-home > div.Containertabs_content.col > div > p {
+    text-align: center;
+  }
 }

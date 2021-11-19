@@ -6,7 +6,7 @@ import Homecontent from "./components/Homepagecontent";
 import Footer from "./components/footer";
 import News from "./components/News";
 import Contact from "./components/Contact";
-import { render } from "react-dom"; //sto node-sass tidligere istedet for react-dom
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

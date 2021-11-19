@@ -4,9 +4,9 @@
   padding: 0;
 }
 
-body {
-  display: grid;
-  min-height: 100vh;
+body,
+html {
+  height: 100%;
 }
 
 $colour-primary: #e92569;
